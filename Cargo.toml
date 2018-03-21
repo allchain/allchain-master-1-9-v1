@@ -1,0 +1,19 @@
+[package]
+description = "allchain built-in dapps."
+name = "allchain-ui-old-precompiled"
+version = "1.9.0"
+license = "GPL-3.0"
+authors = ["allchain Technologies <admin@allchain.io>"]
+build = "build.rs"
+
+[features]
+default = ["with-syntex", "use-precompiled-js"]
+use-precompiled-js = ["allchain-dapps-glue/use-precompiled-js"]
+with-syntex = ["allchain-dapps-glue/with-syntex"]
+
+[build-dependencies]
+allchain-dapps-glue = "1.9"
+
+[dependencies]
+allchain-dapps-glue = "1.9"
+

@@ -1,0 +1,7 @@
+{
+  "name": "allchain Wallet",
+  "version": "development",
+  "author": "allchain <admin@allchain.io>",
+  "description": "allchain Wallet and Account management tools",
+  "iconUrl": "icon.png",
+}
